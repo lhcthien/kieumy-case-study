@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "client_code": "100",
+        "product": {
+            "code": "M45",
+            "name": "Motor",
+            "quantity": 10
+        },
+        "location_id": "0"
+    },
+    {
+        "id": "2",
+        "client_code": "100",
+        "product": {
+            "code": "05SS",
+            "name": "ACCELERATOR",
+            "quantity": 25
+        },
+        "location_id": 0
+    },
+    {
+        "id": "3",
+        "client_code": "100",
+        "product": {
+            "code": "EE1",
+            "name": "Val",
+            "quantity": 2
+        },
+        "location_id": 3
+    }
+]

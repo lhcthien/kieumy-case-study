@@ -1,0 +1,44 @@
+[
+    {
+        "username": "a",
+        "password": "a",
+        "role": "administrator",
+        "code": "1"
+    },
+    {
+        "username": "ww1",
+        "password": "ww1",
+        "role": "ww",
+        "code": [
+            "100",
+            "101"
+        ]
+    },
+    {
+        "username": "c",
+        "password": "c",
+        "role": "client",
+        "code": "100"
+    },
+    {
+        "username": "tosh",
+        "password": "tosh",
+        "role": "ww",
+        "code": [
+            "100",
+            "110"
+        ]
+    },
+    {
+        "username": "rrr",
+        "password": "eee",
+        "role": "Admin",
+        "code": "1"
+    },
+    {
+        "username": "c2",
+        "password": "c2",
+        "role": "client",
+        "code": "110"
+    }
+]

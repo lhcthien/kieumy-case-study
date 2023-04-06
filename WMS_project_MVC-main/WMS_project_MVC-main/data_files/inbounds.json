@@ -1,0 +1,59 @@
+[
+    {
+        "id": "1",
+        "client_code": "100",
+        "products": [
+            {
+                "code": "M45",
+                "name": "Motor",
+                "quantity": "10"
+            },
+            {
+                "code": "05SS",
+                "name": "ACCELERATOR",
+                "quantity": "25"
+            },
+            {
+                "code": "EE1",
+                "name": "Val",
+                "quantity": "2"
+            }
+        ],
+        "time": "21.11.2021",
+        "status": "accepted",
+        "location": "R"
+    },
+    {
+        "id": "2",
+        "client_code": "100",
+        "products": [
+            {
+                "code": "22",
+                "name": "22",
+                "quantity": "22"
+            }
+        ],
+        "time": "12.12.2021",
+        "status": "sent",
+        "location": "R"
+    },
+    {
+        "id": "3",
+        "client_code": "110",
+        "products": [
+            {
+                "code": "AA1",
+                "name": "CC!",
+                "quantity": "10"
+            },
+            {
+                "code": "cc2",
+                "name": "vv",
+                "quantity": "15"
+            }
+        ],
+        "time": "13.12.2021",
+        "status": "sent",
+        "location": "R"
+    }
+]

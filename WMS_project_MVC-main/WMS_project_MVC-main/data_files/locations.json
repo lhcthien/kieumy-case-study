@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "warehouse": "R",
+        "regal": "Ramp"
+    },
+    {
+        "id": "2",
+        "warehouse": "E",
+        "regal": "Expedition"
+    },
+    {
+        "id": "3",
+        "warehouse": "C",
+        "regal": "1"
+    },
+    {
+        "id": "4",
+        "warehouse": "D",
+        "regal": "1"
+    },
+    {
+        "id": "5",
+        "warehouse": "1",
+        "regal": "1"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "code": "M45",
+        "name": "Motor",
+        "client_code": "100",
+        "quantity": "0",
+        "volume": "3.14",
+        "weight": "10.5"
+    },
+    {
+        "code": "05SS",
+        "name": "ACCELERATOR",
+        "client_code": "100",
+        "quantity": "0",
+        "volume": "10.0",
+        "weight": "4.5"
+    },
+    {
+        "code": "EE1",
+        "name": "Val",
+        "client_code": "100",
+        "quantity": "0",
+        "volume": "15.0",
+        "weight": "25.5"
+    },
+    {
+        "code": "AA1",
+        "name": "CC!",
+        "client_code": "110",
+        "quantity": "10",
+        "volume": "10",
+        "weight": "10"
+    }
+]

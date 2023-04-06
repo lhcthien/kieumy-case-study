@@ -1,0 +1,8 @@
+UserID,Username,Password,CreatedDate,LastLoginDate
+1,admin,Admin@123,4/10/2022,6/4/2023
+2,user,User@223,4/11/2022,6/4/2023
+3,accountant,Accountant@323,4/12/2022,6/4/2023
+4,seller,Seller@423,4/13/2022,6/4/2023
+5,tester,Tester@523,4/14/2022,6/4/2023
+6,sales,Sales@623,4/15/2022,5/14/2023
+7,manager,Manager@723,4/16/2022,6/4/2023

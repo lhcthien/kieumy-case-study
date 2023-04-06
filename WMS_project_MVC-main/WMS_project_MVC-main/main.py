@@ -1,7 +1,7 @@
 from tkinter import *
 
-from adminView import *
-from adminModel import *
+# from adminView import *
+# from adminModel import *
 from controllers.login_controller import *
 import controllers
 

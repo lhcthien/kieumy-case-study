@@ -48,3 +48,4 @@ class LoginView:
         self.username_entry.place(x=160, y=20, width=200)
         self.password_entry.place(x=160, y=60, width=200)
         self.btn_login.place(x=160, y=100, width=200)
+

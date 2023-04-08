@@ -4,25 +4,35 @@ from tkinter import *
 from tkinter import ttk
 from tkinter import font
 from tkinter import messagebox
-import mysql.connector
+# import mysql.connector
+import pyodbc 
 
 #Connecting to the database and creating table
-db=mysql.connector.connect(user="root",passwd="root",host="localhost") 
+cnxn = pyodbc.connect("Driver={SQL Server Native Client 11.0};"
+                      "Server=THIEN;"
+                      "Database=CaseStudy;"
+                      "Trusted_Connection=yes;")
+cursor = cnxn.cursor() #getting the cursor object
  
-my_cursor=db.cursor() #getting the cursor object
-my_cursor.execute("CREATE DATABASE IF NOT EXISTS Shop") #creating the database named library
+# cursor.execute("CREATE DATABASE IF NOT EXISTS Shop") #creating the database named library
 
-db=mysql.connector.connect(user="root",passwd="root",host="localhost",database='Shop') 
-my_cursor=db.cursor()
-#query to create a table products
-query="CREATE TABLE IF NOT EXISTS products (date VARCHAR(10),prodName VARCHAR(20), prodPrice VARCHAR(50))" 
-my_cursor.execute(query) #executing the query
+# db=mysql.connector.connect(user="root",passwd="root",host="localhost",database='Shop') 
+# cursor=db.cursor()
+# #query to create a table products
+# query='''CREATE TABLE Product (
+# ProductID INT PRIMARY KEY,
+# Name VARCHAR(100) NOT NULL,
+# Description VARCHAR(MAX),
+# Price DECIMAL(10,2) NOT NULL,
+# Quantity INT NOT NULL
+# );'''
+# cursor.execute(query) #executing the query
 
-db=mysql.connector.connect(user="root",passwd="root",host="localhost",database='Shop') 
-my_cursor=db.cursor()
-#query to create a table sale
-query="CREATE TABLE IF NOT EXISTS sale (custName VARCHAR(20), date VARCHAR(10), prodName VARCHAR(30),qty INTEGER, price INTEGER )" 
-my_cursor.execute(query) #executing the query
+# # db=mysql.connector.connect(user="root",passwd="root",host="localhost",database='Shop') 
+# # cursor=db.cursor()
+# #query to create a table sale
+# query="CREATE TABLE IF NOT EXISTS sale (custName VARCHAR(20), date VARCHAR(10), prodName VARCHAR(30),qty INTEGER, price INTEGER )" 
+# cursor.execute(query) #executing the query
 
 #Function to add the product to the database
 def prodtoTable():

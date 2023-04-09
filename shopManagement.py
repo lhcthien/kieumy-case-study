@@ -376,7 +376,7 @@ def newCust():
 
     wn.mainloop()
 
-#Creating the mail window
+#Creating the main window
 wn = tkinter.Tk() 
 wn.title("PythonGeeks Shop Management System")
 wn.configure(bg='honeydew2')

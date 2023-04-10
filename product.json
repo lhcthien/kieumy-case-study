@@ -1,9 +1,19 @@
 {
-    "1":[
+    "piano":[
         {
-            "Product brand":"YAMAHA",
-            "Product price":1000,
-            "date":"10/4/2022"
+            "Product brand":"Yamaha CLP",
+            "Product price":2000,
+            "Date":"10/4/2022"
+        },
+        {
+            "Product brand":"Roland FP",
+            "Product price":3000,
+            "Date":"10/4/2022"
+        },
+        {
+            "Product brand":"Piano steinway and sons",
+            "Product price":10000,
+            "Date":"10/4/2022"
         }
     ]
 }

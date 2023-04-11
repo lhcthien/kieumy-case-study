@@ -367,7 +367,7 @@ def newCust():
     name3.place(relx=0.6,rely=y, relwidth=0.2)
     y += 0.1
     
-     #Button to generate bill
+    #Button to generate bill
     Btn= Button(wn,text="Generate Bill",bg='#d1ccc0', fg='black',command=bill)
     Btn.place(relx=0.28,rely=0.9, relwidth=0.18,relheight=0.08)
     
